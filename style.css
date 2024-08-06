@@ -1,0 +1,140 @@
+*{
+    font-family: century;
+    
+}
+.accueilcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.headercontainer{
+    width:97%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 50px;
+    background-color:rgba(241, 149, 241, 0.114);
+    padding: 10px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px;
+    align-items: center;
+   
+    
+}
+.titletexte{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    
+}
+
+#logo{
+    width: 65px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.href{
+        font-size: 25px;
+        font-weight:600;
+        color: black;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       gap: 20px;
+       justify-content: space-between;
+       
+    }
+a{
+    text-decoration: none;
+    color: rgb(124, 8, 124);
+}
+.navlogo{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+.navlink{
+    display: flex;
+    flex-direction: row;
+}
+.titletext{
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(92, 69, 179);
+
+}
+.exemplecontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+#img{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 500px;
+    margin: 10px;
+  }
+.cercle{
+    border-radius: 50%;
+    border: rgb(55, 17, 59) solid 2px;
+    height: 150px;
+    width: 150px;
+}
+.child2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.word1{
+    font-size: 60px;
+
+}
+#c1{
+    background-color: rgba(99, 30, 99, 0.155);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#c2{
+    background-color:rgba(93, 69, 179, 0.678);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#c3{
+    background-color: rgb(167, 92, 167);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.child3{
+    font-weight: bold;
+}
